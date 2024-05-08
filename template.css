@@ -16,9 +16,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .row-sb{
     display: flex;
     justify-content: space-between;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
 }
