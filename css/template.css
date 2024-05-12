@@ -56,6 +56,12 @@
     align-items: center;
 }
 
+.col-fe{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 .navlist{
     margin-top: 1.5rem;
     display: flex;
@@ -104,3 +110,10 @@
     text-align: justify;
 }
 
+.img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: opacity 0.3s ease-in-out;
+    object-fit: cover;
+}

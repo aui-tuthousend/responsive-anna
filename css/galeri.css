@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'bold_font';
+    src: url("../font/THE BOLD FONT - FREE VERSION - 2023.ttf") format("truetype");
+}
+
+
+.c1{
+    width: 100%;
+    padding: 3rem 4rem 6rem 4rem;
+    margin-bottom: 2rem;
+}
+
+.c1 h2{
+    font-weight: 800;
+}
+
+.c1-1{
+    margin-top: 0.4rem;
+
+    width: 100%;
+    height: 21rem;
+}
+
+
+.galery{
+    width: 83%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+
+    background: yellow;
+}
+
+.galery::-webkit-scrollbar{
+    display: none;
+}
+
+.gambar{
+    width: 50%;
+    height: 7rem;
+    background: grey;
+}
+
+.tulisan{
+    width: 17%;
+    height: 100%;
+    background: #FDF1F1;
+}
+
+.tulisan h1{
+    font-family: "bold_font";
+    /*font-weight: bold;*/
+    font-size: 3rem;
+    font-style: italic;
+    rotate: -90deg;
+    margin-right: 6px;
+}

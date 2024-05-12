@@ -3,42 +3,6 @@
     src: url("../font/scarabus_display.ttf") format("truetype");
 }
 
-*{
-    box-sizing: border-box;
-    /*font-family: 'Space Grotesk', sans-serif;*/
-    font-family: "Lexend Light";
-
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    text-decoration: none;
-}
-
-body {
-    overflow-x: hidden;
-    height: 100%;
-    width: 100vw;
-    background: whitesmoke;
-
-}
-
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 430px;
-    /*height: 1920px;*/
-    background: white;
-    /*border: 1px solid black;*/
-    /*padding: 1rem;*/
-}
-
 .c1{
     margin-top: 4rem;
     width: 100%;
@@ -104,4 +68,12 @@ main{
 .box4 h4{
     font-family: 'Space Grotesk', sans-serif;
     font-style: italic;
+}
+
+.bb{
+    cursor: pointer;
+}
+
+.bb:hover{
+    transform: scale(1.01);
 }
