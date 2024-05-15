@@ -1,0 +1,90 @@
+.c1{
+    width: 100%;
+    height: 14rem;
+    padding: 4rem 3.5rem 0rem 3.5rem;
+}
+
+.c1-1{
+    width: 50%;
+    height: 9rem
+}
+
+.c1-1 p{
+    font-size: 0.9rem;
+}
+
+.explore{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 10rem;
+    background: orange;
+}
+
+.c1-2{
+    width: 50%;
+    /*height: 100%;*/
+}
+
+.c1-3{
+    width: 100%;
+    height: 9rem;
+}
+
+.blk1{
+    width: 5rem;
+    height: 4rem;
+    background: lightgray;
+}
+
+.blk2{
+    width: 5rem;
+    height: 4rem;
+    background: lightgray;
+}
+
+.blk3{
+    width: 4rem;
+    height: 9rem;
+    background: lightgray;
+}
+
+.c2{
+    width: 100%;
+    height: 10rem;
+    padding: 0rem 3.5rem 0rem 3.5rem;
+}
+
+.c2-1{
+    width: 100%;
+    height: 100%;
+    background: lightgray;
+}
+
+.c3{
+    width: 100%;
+    /*height: 9rem;*/
+    padding: 1rem 3.5rem 0 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.c3-1{
+    width: 50%;
+    height: 6.5rem;
+    background: orange;
+}
+
+.titel{
+    margin-left: 0.4rem;
+    width: 50%;
+    font-size: 16px;
+    text-align: left;
+}
+
+.brita{
+    padding-right: 0.3rem;
+}
+
+.brita:hover{
+    background: lightgray;
+    cursor: pointer;
+}
