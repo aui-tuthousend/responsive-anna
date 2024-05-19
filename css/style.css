@@ -9,6 +9,11 @@
     text-decoration: none;
 }
 
+a {
+    color: inherit; /* Menggunakan warna teks dari elemen induk */
+    text-decoration: none; /* Menghilangkan garis bawah default */
+}
+
 body {
     overflow-x: hidden;
     height: 100%;
